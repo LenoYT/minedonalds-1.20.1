@@ -14,11 +14,11 @@ public class ModBlocks {
     public static final Block SHOWER_TILE = registerBlock("shower_tile",
             new Block(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS)));
     public static final Block SHOWER_TILE_STAIRS = registerBlock("shower_tile_stairs",
-            new StairsBlock(SHOWER_TILE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_BRICK_STAIRS)));
+            new StairsBlock(SHOWER_TILE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_BRICKS)));
     public static final Block SHOWER_TILE_SLAB = registerBlock("shower_tile_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE_BRICK_SLAB)));
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS)));
     public static final Block SHOWER_TILE_WALL = registerBlock("shower_tile_wall",
-            new WallBlock(FabricBlockSettings.copyOf(Blocks.STONE_BRICK_WALL)));
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

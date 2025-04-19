@@ -16,8 +16,8 @@ public class ModModelProvider extends FabricModelProvider {
         // blockStateModelGenerator.registerSimpleCubeAll(block);
         BlockStateModelGenerator.BlockTexturePool showerTilePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SHOWER_TILE);
         showerTilePool.stairs(ModBlocks.SHOWER_TILE_STAIRS);
-        showerTilePool.stairs(ModBlocks.SHOWER_TILE_SLAB);
-        showerTilePool.stairs(ModBlocks.SHOWER_TILE_WALL);
+        showerTilePool.slab(ModBlocks.SHOWER_TILE_SLAB);
+        showerTilePool.wall(ModBlocks.SHOWER_TILE_WALL);
     }
 
     @Override

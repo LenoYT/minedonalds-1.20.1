@@ -9,6 +9,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import pl.supercraft.minedonalds.MineDonalds;
+import pl.supercraft.minedonalds.block.ModBlocks;
 
 public class ModItems {
 
@@ -30,6 +31,11 @@ public class ModItems {
         entries.add(FRIES);
         entries.add(FRY_CARTON);
         entries.add(FRIED_QUARTERED_POTATOES);
+
+//        entries.add(ModBlocks.SHOWER_TILE);
+//        entries.add(ModBlocks.SHOWER_TILE_SLAB);
+//        entries.add(ModBlocks.SHOWER_TILE_STAIRS);
+//        entries.add(ModBlocks.SHOWER_TILE_STAIRS);
     }
 
     private static Item registerItem(String name, Item item) {
