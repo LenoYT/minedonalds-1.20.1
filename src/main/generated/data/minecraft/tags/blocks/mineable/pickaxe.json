@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minedonalds:shower_tile",
+    "minedonalds:shower_tile_slab",
+    "minedonalds:shower_tile_stairs",
+    "minedonalds:shower_tile_wall"
+  ]
+}
