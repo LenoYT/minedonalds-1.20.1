@@ -29,4 +29,8 @@ public class ModBlocks {
         return Registry.register(Registries.ITEM, new Identifier(MineDonalds.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings()));
     }
+
+    public static void registerModBlocks() {
+        MineDonalds.LOGGER.info("Registering McDonald's x minecraft movie blocks");
+    }
 }

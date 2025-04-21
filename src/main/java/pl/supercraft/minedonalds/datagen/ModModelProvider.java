@@ -4,7 +4,9 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
+import net.minecraft.data.client.Models;
 import pl.supercraft.minedonalds.block.ModBlocks;
+import pl.supercraft.minedonalds.item.ModItems;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -23,6 +25,10 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         // itemModelGenerator.register(item, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FRIES, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FRIED_QUARTERED_POTATOES, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FRY_CARTON, Models.GENERATED);
+        itemModelGenerator.register(ModItems.QUARTERED_POTATOES, Models.GENERATED);
 
     }
 }
